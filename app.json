@@ -5,6 +5,26 @@
       "bundler": "metro"
     },
     "name": "job-finder",
-    "slug": "job-finder"
+    "slug": "job-search",
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fcbee0a5-2f78-4273-8a71-fed180df6616"
+      }
+    },
+    "owner": "arsene512",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fcbee0a5-2f78-4273-8a71-fed180df6616"
+    },
+    "android": {},
+    "ios": {}
   }
 }
